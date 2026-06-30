@@ -19,7 +19,7 @@ The application is built using a modular, three-part architecture:
 ## 🚀 How to Run Locally
 
 **1. Clone the repository**
-`git clone https://github.com/YOUR_GITHUB_USERNAME/AI-B2B-Competitor-Agent.git`
+https://github.com/ShiroSNS/AI-B2B-Competitor-Agent
 `cd AI-B2B-Competitor-Agent`
 
 **2. Install dependencies**
