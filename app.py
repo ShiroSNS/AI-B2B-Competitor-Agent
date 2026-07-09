@@ -35,7 +35,7 @@ if st.button("Run Market Analysis", type="primary"):
             # Step 2: Pass data to the agent
             with st.spinner("🧠 Initializing Gemini 3.5 Flash data parsing..."):
                 structured_report = analyze_company_data(raw_text, api_key)
-            
+                
             # Step 3: Render the Results Dashboard
             if "Error" in structured_report:
                 st.error(structured_report["Error"])
